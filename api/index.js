@@ -4,9 +4,7 @@ import dotenv from "dotenv";
 
 //env config
 dotenv.config();
-
 //connect to DB
-
 mongoose
   .connect(process.env.MONGO)
   .then(() => {
